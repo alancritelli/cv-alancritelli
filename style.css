@@ -1,0 +1,193 @@
+@media (min-width:1280px) {
+  .container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width:1023px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+  }
+
+  body {
+    font: 14px 'Montserrat', sans-serif;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .section {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  /*CABEÇALHO*/
+  #header {
+    background: url(https://images.unsplash.com/photo-1603468620905-8de7d86b781e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80) no-repeat center/cover;
+    height: 15em;
+    text-align: center;
+  }
+
+  /*PAGINA INICIAL*/
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /*CARDS COM AS INFORMAÇÕES SOBRE MIM*/
+  .card-about {
+    padding: 2rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.50);
+    border-bottom: 0.25rem solid;
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+
+  .card-about .title {
+    margin-bottom: 2rem;
+  }
+
+  .card-about p {
+    margin: 1em;
+  }
+
+  .card-about .languages {
+    text-align: center;
+  }
+
+  /*CARD INTRODUTORIO*/
+  .card-info {
+    padding: 2rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.50);
+    border-bottom: 0.25rem solid;
+    border-radius: 5em;
+
+    text-align: center;
+  }
+
+  .card-info img {
+    height: 9em;
+    width: 9em;
+    border-radius: 50%;
+  }
+
+  .card-info p {
+    margin: 1em;
+    text-align: le;
+  }
+
+  /*CARD COM AS INFORMAÇÕES PESSOAIS*/
+  .card-personal {
+    padding: 2rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.50);
+    border-bottom: 0.25rem solid;
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+
+  .card-personal .title {
+    margin-bottom: 2rem;
+  }
+
+  .card-personal p {
+    margin: 1em;
+  }
+
+  .card-personal .redes {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .card-personal .redes i {
+    color: black;
+    font-size: 1.5rem;
+    margin-right: .3rem;
+
+    transition: 0.3s;
+    display: inline-block;
+  }
+
+  .card-personal .redes i:hover {
+    transform: translateY(-8px);
+  }
+
+  /*EXPERIENCIAS*/
+  #expertise header p {
+    margin-top: 1em;
+  }
+
+  .cards-expertise {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-expertise {
+    padding: 1rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.50);
+    border-bottom: 0.25rem solid;
+    border-radius: 0.25rem 0.25rem 0 0;
+
+    display: flex;
+  }
+
+  .image-expertise {
+    margin-right: 0.5em;
+    margin-top: 0.2em;
+  }
+
+  .info-expertise p {
+    margin-top: .5em;
+  }
+
+  /*EDUCAÇÃO E CURSOS*/
+  #study header p {
+    margin-top: 1em;
+  }
+
+  .cards-study {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card-study {
+    padding: .5rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.50);
+    border-bottom: 0.25rem solid;
+    border-radius: 0.25rem 0.25rem 0 0;
+
+    text-align: center;
+  }
+
+  .image-study {
+    margin-right: 0.5em;
+    margin-top: 0.2em;
+  }
+
+  .info-study p {
+    margin-top: .5em;
+  }
+
+  /*SKILLS*/
+  .cards-skills {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-skill {
+    padding: 1rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.50);
+    border-bottom: 0.25rem solid;
+    border-radius: 0.25rem 0.25rem 0 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+}
